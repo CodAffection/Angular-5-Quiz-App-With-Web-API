@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QuizDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Question">
+    <Key>
+      <PropertyRef Name="QnID" />
+    </Key>
+    <Property Name="QnID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Qn" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="ImageName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Option1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Option2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Option3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Option4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Answer" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="DBModel" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Questions" EntityType="Self.Question" />
+    <EntitySet Name="Participants" EntityType="QuizDBModel.Participant" />
+  </EntityContainer>
+  <EntityType Name="Participant">
+    <Key>
+      <PropertyRef Name="ParticipantID" />
+    </Key>
+    <Property Name="ParticipantID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Score" Type="Int32" />
+    <Property Name="TimeSpent" Type="Int32" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QuizDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Participant">
+    <Key>
+      <PropertyRef Name="ParticipantID" />
+    </Key>
+    <Property Name="ParticipantID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="Email" Type="varchar" MaxLength="50" />
+    <Property Name="Score" Type="int" />
+    <Property Name="TimeSpent" Type="int" />
+  </EntityType>
+  <EntityType Name="Question">
+    <Key>
+      <PropertyRef Name="QnID" />
+    </Key>
+    <Property Name="QnID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Qn" Type="varchar" MaxLength="250" />
+    <Property Name="ImageName" Type="varchar" MaxLength="50" />
+    <Property Name="Option1" Type="varchar" MaxLength="50" />
+    <Property Name="Option2" Type="varchar" MaxLength="50" />
+    <Property Name="Option3" Type="varchar" MaxLength="50" />
+    <Property Name="Option4" Type="varchar" MaxLength="50" />
+    <Property Name="Answer" Type="int" />
+  </EntityType>
+  <EntityContainer Name="QuizDBModelStoreContainer">
+    <EntitySet Name="Participant" EntityType="Self.Participant" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Question" EntityType="Self.Question" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
