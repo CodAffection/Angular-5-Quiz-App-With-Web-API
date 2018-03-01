@@ -1,0 +1,28 @@
+<app-navbar></app-navbar>
+<div class="row" *ngIf="quizService.qns && this.quizService.qnProgress != 10">
+  <div class="col s8 offset-s2">
+    <span>Time Elapsed : {{quizService.displayTimeElapsed()}}</span>
+    <div class="progress">
+      <div class="determinate" [style.width.%]="(quizService.qnProgress+1)*10"></div>
+    </div>
+    <div class="card blue-grey darken-1">
+      <div class="card-content white-text">
+        <span class="card-title">{{quizService.qnProgress+1}}</span>
+        <p>{{quizService.qns[quizService.qnProgress].Qn}}</p>
+        <div *ngIf="quizService.qns[quizService.qnProgress].ImageName!=null">
+          <img class="center" [src]="quizService.rootUrl+'/Images/'+quizService.qns[quizService.qnProgress].ImageName" style="width:350px;height:200px">
+        </div>
+      </div>
+      <div class="card-action">
+        <ul class="collection answer">
+          <ng-container *ngFor="let option of quizService.qns[quizService.qnProgress].Options;let i = index">
+            <li *ngIf="option != null" class="collection-item" (click)="Answer(quizService.qns[quizService.qnProgress].QnID,i)">
+              {{option}}
+            </li>
+          </ng-container>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
