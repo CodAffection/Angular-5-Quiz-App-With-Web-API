@@ -1,0 +1,22 @@
+● src
++---● app
+|   |
+|   +--● register
+|   |  |--register.component.ts|.html|.css
+|   |
+|   +--● navbar
+|   |  |--navbar.component.ts|.html|.css
+|   |
+|   +--● quiz
+|   |  |--quiz.component.ts|.html|.css
+|   |
+|   +--● result
+|   |  |--result.component.ts|.html|.css
+|   |
+|   +--● shared
+|      |--quiz.service.ts
+|
+|---● routes.ts
+|
++---● auth  
+|   |--auth.guard.ts
