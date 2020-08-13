@@ -1,14 +1,20 @@
-# Angular 5 in Angular 5 with Web API
+# Quiz Application with Angular 5 & Web API
 This is an Angular 5 Application for Quiz Application with Web APi and SQl Server.
 
-###### Before Running this Project
- 1. Install npm packages using 'npm install' command.
- 2. Change Web API DB Connection String
+## Get the Code
+
+```
+$ git clone https://github.com/CodAffection/Angular-5-Quiz-App-With-Web-API.git
+$ cd Angular-5-Quiz-App-With-Web-API
+$ npm install
+//update Web API DB connection string
+//run the app
+$ ng serve
+```
+
+ ## Explain how it works ?
  
- 
- # Step By Step Explanation
- 
- Video Tutorial : https://youtu.be/geEWd7mDlTI
+ Video tutorial with from scratch explanation is here- https://youtu.be/geEWd7mDlTI
  
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=geEWd7mDlTI
 " target="_blank"><img src="http://img.youtube.com/vi/geEWd7mDlTI/0.jpg" 
