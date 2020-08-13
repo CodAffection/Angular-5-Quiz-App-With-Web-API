@@ -40,9 +40,3 @@ alt="Video Tutorial for Angular 5 CRUD Using Firebase" width="500" height="400" 
 | Crystal Report            |https://goo.gl/5Vou7t |   |
 | CG Exercises in C Program |https://goo.gl/qEWJCs |   |
         
-###  Support us
-|Donation|Affiliate|
-|:------:|:--------:|
-|PayPal<br/>https://goo.gl/bPcyXW | Amazon <br/> https://geni.us/JDzpE |
-
-
