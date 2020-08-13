@@ -24,13 +24,10 @@ alt="Video Tutorial for Angular 5 CRUD Using Firebase" width="500" height="400" 
 
 ## List of Video Series
 |        |         |       |
-| ------------- | ------------- |:-------------:|
-| Angular<br/>http://bit.ly/2KQN9xF | Asp.Net Core <br/> http://bit.ly/30fPDMg | React<br/> http://bit.ly/325temF |
+|:-------------:|:-------------:|:-------------:|
+| ``__Angular__`` <br/>http://bit.ly/2KQN9xF | Asp.Net Core <br/> http://bit.ly/30fPDMg | React<br/> http://bit.ly/325temF |
 | Python <br/> http://bit.ly/2ws4utg | Node.js <br/> https://goo.gl/viJcFs | Asp.Net MVC <br/> https://goo.gl/gvjUJ7 |
 | Flutter <br/> https://bit.ly/3ggmmJz | Web API <br/> https://goo.gl/itVayJ | MEAN Stack <br/> https://goo.gl/YJPPAH |
 | C# Tutorial <br/> https://goo.gl/s1zJxo | Asp.Net WebForm <br/> https://goo.gl/GXC2aJ | C# WinForm <br/> https://goo.gl/vHS9Hd |
 | MS SQL <br/> https://goo.gl/MLYS9e | Crystal Report <br/> https://goo.gl/5Vou7t | CG Exercises in C Program <br/> https://goo.gl/qEWJCs |
-
-
-
 
