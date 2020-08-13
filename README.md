@@ -7,14 +7,15 @@ This is an Angular 5 Application for Quiz Application with Web APi and SQl Serve
 $ git clone https://github.com/CodAffection/Angular-5-Quiz-App-With-Web-API.git
 $ cd Angular-5-Quiz-App-With-Web-API
 $ npm install
-//update Web API DB connection string
 //run the app
 $ ng serve
+//update Web API DB connection string
 ```
 
- ## Explain how it works ?
+ ## How it works ?
  
- Video tutorial with from scratch explanation is here- https://youtu.be/geEWd7mDlTI
+ :tv: Video tutorial on this same topic  
+ Url : https://youtu.be/geEWd7mDlTI
  
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=geEWd7mDlTI
 " target="_blank"><img src="http://img.youtube.com/vi/geEWd7mDlTI/0.jpg" 
