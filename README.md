@@ -22,26 +22,27 @@ $ ng serve
 alt="Video Tutorial for Angular 5 CRUD Using Firebase" width="500" height="400" border="10" /></a>
 
 
-### :bar_chart: List of Tutorials
-|||
-|-------------:|:-------------|
-| Angular |http://bit.ly/2KQN9xF |
-| Asp.Net Core |http://bit.ly/30fPDMg |
-| React |http://bit.ly/325temF |
-| Python |http://bit.ly/2ws4utg |
-| Node.js |https://goo.gl/viJcFs |
-| Asp.Net MVC |https://goo.gl/gvjUJ7 |
-| Flutter |https://bit.ly/3ggmmJz |
-| Web API |https://goo.gl/itVayJ |
-| MEAN Stack |https://goo.gl/YJPPAH |
-| C# Tutorial |https://goo.gl/s1zJxo |
-| Asp.Net WebForm |https://goo.gl/GXC2aJ |
-| C# WinForm |https://goo.gl/vHS9Hd |
-| MS SQL |https://goo.gl/MLYS9e |
-| Crystal Report |https://goo.gl/5Vou7t |
-| CG Exercises in C Program |https://goo.gl/qEWJCs |
+| :bar_chart:               |  List of Tutorials   |   | :moneybag:  | Support Us             |
+|--------------------------:|:---------------------|---|------------:|:-----------------------|
+| Angular                   |http://bit.ly/2KQN9xF |   |Paypal       | https://goo.gl/bPcyXW  |
+| Asp.Net Core              |http://bit.ly/30fPDMg |   |Amazon       | https://geni.us/JDzpE  |
+| React                     |http://bit.ly/325temF |   |
+| Python                    |http://bit.ly/2ws4utg |   |
+| Node.js                   |https://goo.gl/viJcFs |   |
+| Asp.Net MVC               |https://goo.gl/gvjUJ7 |   |
+| Flutter                   |https://bit.ly/3ggmmJz|   |
+| Web API                   |https://goo.gl/itVayJ |   |
+| MEAN Stack                |https://goo.gl/YJPPAH |   |
+| C# Tutorial               |https://goo.gl/s1zJxo |   |
+| Asp.Net WebForm           |https://goo.gl/GXC2aJ |   |
+| C# WinForm                |https://goo.gl/vHS9Hd |   |
+| MS SQL                    |https://goo.gl/MLYS9e |   |
+| Crystal Report            |https://goo.gl/5Vou7t |   |
+| CG Exercises in C Program |https://goo.gl/qEWJCs |   |
         
-### :moneybag: Support us
+###  Support us
 |Donation|Affiliate|
 |:------:|:--------:|
 |PayPal<br/>https://goo.gl/bPcyXW | Amazon <br/> https://geni.us/JDzpE |
+
+
