@@ -22,7 +22,7 @@ $ ng serve
 alt="Video Tutorial for Angular 5 CRUD Using Firebase" width="500" height="400" border="10" /></a>
 
 
-### :bar_chart:List of Video Series
+### :bar_chart: List of Tutorials
 |||
 |-------------:|:-------------|
 | Angular |http://bit.ly/2KQN9xF |
@@ -40,4 +40,8 @@ alt="Video Tutorial for Angular 5 CRUD Using Firebase" width="500" height="400" 
 | MS SQL |https://goo.gl/MLYS9e |
 | Crystal Report |https://goo.gl/5Vou7t |
 | CG Exercises in C Program |https://goo.gl/qEWJCs |
-
+        
+### :moneybag: Support us
+|Donation|Affiliate|
+|:------:|:--------:|
+|PayPal<br/>https://goo.gl/bPcyXW | Amazon <br/> https://geni.us/JDzpE |
